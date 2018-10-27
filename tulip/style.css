@@ -1,0 +1,75 @@
+body{
+    background: lightblue;
+}
+.box{
+    background: lightskyblue;
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+.tulip-body{
+    z-index: 2;
+    /* background: darkred; */
+    height: 15vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 80%;
+    transform: rotate(20deg);
+}
+.petal-left{
+    border: 3px  solid darkred;
+    background:lightcoral;
+    height: 15vh;
+    width: 10vw;
+    border-radius: 90%;
+    transform: rotate(-20deg);
+    border-left: 8px solid darkred;
+}
+.petal-center{
+    z-index: 2;
+    border: 3px  solid darkred;
+    background:lightcoral;
+    height: 20vh;
+    width: 20vw;
+    border-radius: 80%;
+    margin-right: -30%;
+    margin-left: -30%;
+    border-left: 24px solid darkred;
+}
+.petal-right{
+    border: 3px  solid darkred;
+    background:lightcoral;
+    height: 15vh;
+    width: 10vw;
+    border-radius: 90%;
+    transform: rotate(20deg);
+    border-left: 8px solid darkred;
+}
+.stalk-body{
+    /* background: lightgray; */
+    height: 40vh;
+    width: 10vw;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+}
+.leaf{
+    background: olivedrab;
+    height: 15vh;
+    width: 10vw;
+    border-radius: 90%;
+    transform: rotate(40deg);
+    border-left: 6px solid darkolivegreen
+}
+.stalk{
+    background: olivedrab;
+    border-left: 4px solid darkolivegreen;
+    height: 60vh;
+    width: 5vw;
+}
