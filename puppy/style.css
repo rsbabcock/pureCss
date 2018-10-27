@@ -1,11 +1,11 @@
 
 body{
-    background: lightgray;
+    background: lavender;
 }        
 .box{
     position: relative;
     margin: 0 auto;
-    background: lightskyblue;
+    /* background: lightskyblue; */
     height: 500px;
     width: 500px;
     display: flex;
@@ -29,7 +29,7 @@ body{
 }
 .ear-left{
     z-index: -1;
-    background: burlywood;
+    background: #7F6857;
     height: 140px;
     width: 83px;
     /* border-radius: 50%; */
@@ -39,12 +39,12 @@ body{
     border-bottom-right-radius: 75%;
     margin-right: -45px;
     transform: rotate(30deg);
-    margin-top: -10px;
+    margin-top: -16px;
     
 }
 .ear-right{
     z-index: -1;
-    background: burlywood;
+    background: #7F6857;
     height: 140px;
     width: 83px;
     /* border-radius: 75%; */
@@ -54,7 +54,7 @@ body{
     border-bottom-right-radius: 75%;
     margin-left: -45px;
     transform: rotate(-30deg);
-    margin-top: -10px;
+    margin-top: -16px;
 }
 .head{
     /* z-index: 5; */
@@ -75,15 +75,31 @@ body{
 }
 .eye-left{
     background: black;
-    height: 32px;
-    width: 32px;
-    border-radius: 50%
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: -15px;
 }
 .eye-right{
     background: black;
-    height: 32px;
-    width: 32px;
-    border-radius: 50%
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+.pupil-left{
+    background: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.pupil-right{
+    background: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 15px;
 }
 .muzzle{
     display: flex;
@@ -93,18 +109,20 @@ body{
     padding: 10%;
     height: 50px;
     width: 42px;
+    margin-top: 80px;
 }
 .nose{
-    background: tomato;
-    height: 24px;
-    width: 24px;
-    border-radius: 50%
+    background: #704E32;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
-.mouth{
-    background: pink;
-    height: 24px;
-    width: 24px;
-    border-radius: 50%
+.nose-lower{
+    background:  #704E32;
+    height: 50px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -20px;
 }
 .body-container{
     /* background: tan; */
@@ -132,13 +150,14 @@ body{
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-top: 3px #7F6857 solid;
+    border-left: 3px #7F6857 solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 }
 .tail{
-    z-index: 5;
+    /* z-index: -2; */
     /* background: burlywood; */
     height: 160px;
     width: 50px;
@@ -156,7 +175,7 @@ body{
     align-self: baseline;
     z-index: 4;
     height: 350px;
-    width: 150px;
+    width: 179px;
     display: flex;
     flex-direction: row;
     /* margin-top: -40px; */
